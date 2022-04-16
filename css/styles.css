@@ -81,7 +81,7 @@ img {
   color: var(--primary-white-color);
 }
 
-/* ------------Site nav---------- */
+/* -------------------Навигация-------------------- */
 
 .header {
   padding-top: 24px;
@@ -119,6 +119,8 @@ img {
   cursor: pointer;
 }
 
+/* ---------------------Контакты---------------- */
+
 .contact {
   display: flex;
   margin-left: auto;
@@ -154,7 +156,8 @@ img {
 /* --------------------Hero---------------------- */
 
 .hero {
-  /* padding: 200px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -206,6 +209,19 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.features-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: space-between;
+
+  /* background-color: tomato; */
+}
+
+.features-list-item {
+  width: 270px;
 }
 
 .features-title {
