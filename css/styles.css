@@ -85,10 +85,6 @@ img {
 
 /* -------------------Навигация-------------------- */
 
-.header {
-  /* padding-top: 24px; */
-}
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -405,7 +401,6 @@ img {
 
 .portfolio-filter {
   display: flex;
-  /* padding-top: 94px; */
   margin-bottom: 50px;
   justify-content: center;
 }
